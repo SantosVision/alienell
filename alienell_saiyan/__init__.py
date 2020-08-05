@@ -1,6 +1,7 @@
 def names_fix(name):
-    '''This function takes repeated string values in a column and covert them into one single values '''
-    for k, v in cult.items():
+    '''This function takes repeated string values in a list and covert them into one single value
+for each repeated values'''
+    for k, v in list.items():
         if name.lower() in v:
             return k
 
@@ -11,7 +12,7 @@ Some functions to help cleaning and handling dataframes.
 import pandas as pd
 def report_missing_values(df):
     """Print a pretty report of missing values."""
-    print(pd.DataFrame().isnull())
+    print(df.isnull())
 
 
 

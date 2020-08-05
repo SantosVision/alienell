@@ -59,6 +59,6 @@ class Person:
         self.name = name
         self.age = age
 
-author = Person("Maarten", 30)
+author = Person("Anell", 29)
 print("My name is " + author.name)
 print("My age is " + str(author.age))
