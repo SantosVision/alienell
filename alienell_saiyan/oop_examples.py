@@ -18,6 +18,7 @@ class Complex:
 
 
 class SocialMediaUser:
+    '''Representation username & votes'''
     def __init__(self, name):
         self.name = name
         self.upvotes = 0
