@@ -10,7 +10,7 @@ with open("README.md", "r") as file:
     LONG_DESCRIPTION = file.read()
 setuptools.setup(
     name="alienell_saiyan",
-    version="0.0.2",
+    version="0.0.3",
     author="alienell",
     description="A collection of Data Science helper functions",
     long_description=LONG_DESCRIPTION,
