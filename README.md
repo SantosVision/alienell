@@ -1,18 +1,24 @@
-a cool package w/ some DS helper functions
+# Package_Repo
+Unit 3 Package Repositories
 
-dependencies: scikit-learn numpy pandas python 3.8
-
-to install package: 'pip install -i https://test.pypi.org/simple/ alienell-saiyan'
-
-url for the package: 'https://test.pypi.org/project/alienell-saiyan/'
-
-to upload to pypi: pipenv install -d twine
-
-to make a new version: delete the current build and dist files ,then revise version value in setup.py file
-
-then type this:
-
-python setup.py sdist bdist_wheel and this twine upload --repository-url https://test.pypi.org/legacy/ dist/* OR twine upload --skip-existing --repository-url https://test.pypi.org/legacy/ dist/*
+## Main Features
+* Contains a module which includes a function that is able to 
+output null values of columns in data frame into "pretty format".
+* Able to clean, wrangle and train_test_split
+* able to return repeated values in a list into a single value.
 
 
+# Where to get it
+https://github.com/Techvolutions05/alienell
 
+# Dependencies
+* Numpy
+* Pandas
+* sklearn
+
+# How to install it
+pip install -i https://test.pypi.org/simple/ alienell-saiyan
+
+#
+## License
+* MIT License
