@@ -53,13 +53,16 @@ class Tiger(Animal):
         return 'Scamperwoosh!'
 
 
-'''Here we created a class Person with a function __init__ The initialisation function will be called when an object of that initialised. '''
+'''Here we created a class Baseball with a function __init__ The initialisation function will be called when an object of that initialised. '''
+class Baseball:
+    '''Takes imput from user about today's game and prints it'''
+    def __init__(self, team, enemy):
+        self.team = team
+        self.enemy = enemy
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+game = Baseball(input('Type Home Team: '), input('Type Away Team: '))
 
-author = Person("Anell", 29)
-print("My name is " + author.name)
-print("My age is " + str(author.age))
+print("\n     Todays's Game")
+print("Home team is: " + game.team)
+print('vs')
+print('Away team is: ' + game.enemy)
